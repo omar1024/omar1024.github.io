@@ -32,6 +32,8 @@ body{
     margin-right: auto;    
   }
   
+
+  // ============================================================================= window
   @media(min-width:1024px){
     #sidebar{
       flex-basis: 20%;
@@ -48,10 +50,61 @@ body{
       margin-left: auto;
       margin-bottom: auto;
     }
-  
-    body{
-        overflow-x:hidden;
+    #profile{
+      max-width: 100%;
     }
+    
+    #intro{
+      color: #de935f;
+      text-align: justify;
+    }
+    
+    #prompt{
+      float:left;
+      width:auto;
+      font-size: 22px;
+      vertical-align: middle;
+      box-sizing: border-box;
+      background-color: black;
+      color: #f0c674;
+      border: none;
+      font: 1.3rem Inconsolata, monospace;
+    }
+  
+  
+    #txtBox{
+      float:left;
+      width:auto;
+      font-size: 22px;
+      vertical-align: middle;
+      background-color: #0e1a1b;
+      color: #b5bd68;
+      border: #f0c674;
+      box-sizing: border-box;
+      font: 1.3rem Inconsolata, monospace;
+    
+    }
+    
+    #injected{
+      font-size: 15px;
+      padding: 5%;
+    }
+    
+    #injected ul{
+      list-style: none;
+    }
+    
+    #injected li, th, td {
+        padding-right: 45px;
+        padding-left: 25px;
+        padding-top: 7px;
+        text-align: left;
+    }
+    
+    #userInput{
+      margin-top: 20px;
+    }
+  
   }
   
   .container{
@@ -65,68 +118,69 @@ body{
     font-size: 52px;
   }
   
+
+  // ================================================================= mobile
   @media(max-width:1024px){
     #sidebar h1{
       font-size: 150px;
     }
-    #userInput {
-      display: none;
+    #profile{
+      max-width: 100%;
     }
-  }
+    
+    #intro{
+      color: #de935f;
+      text-align: justify;
+    }
+    
+    #prompt{
+      float:left;
+      width:auto;
+      font-size: 22px;
+      vertical-align: middle;
+      box-sizing: border-box;
+      background-color: black;
+      color: #f0c674;
+      border: none;
+      font: 1.3rem Inconsolata, monospace;
+    }
   
-  #profile{
-    max-width: 100%;
-  }
   
-  #intro{
-    color: #de935f;
-    text-align: justify;
-  }
-  
-  #prompt{
-    float:left;
-    width:auto;
-    font-size: 22px;
-    vertical-align: middle;
-    box-sizing: border-box;
-    background-color: black;
-    color: #f0c674;
-    border: none;
-    font: 1.3rem Inconsolata, monospace;
-  }
+    #txtBox{
+      float:left;
+      width:auto;
+      font-size: 22px;
+      vertical-align: middle;
+      background-color: #0e1a1b;
+      color: #b5bd68;
+      border: #f0c674;
+      box-sizing: border-box;
+      font: 1.3rem Inconsolata, monospace;
+    
+    }
+    
+    #injected{
+      font-size: 15px;
+      padding: 5%;
+    }
+    
+    #injected ul{
+      list-style: none;
+    }
+    
+    #injected li, th, td {
+        padding-right: 45px;
+        padding-left: 25px;
+        padding-top: 7px;
+        text-align: left;
+    }
+    
+    #userInput{
+      margin-top: 20px;
+    }
 
+  }
+  
 
-  #txtBox{
-    float:left;
-    width:auto;
-    font-size: 22px;
-    vertical-align: middle;
-    background-color: #0e1a1b;
-    color: #b5bd68;
-    border: #f0c674;
-    box-sizing: border-box;
-    font: 1.3rem Inconsolata, monospace;
-  
-  }
-  
-  #injected{
-    font-size: 15px;
-    padding: 5%;
-  }
-  
-  #injected ul{
-    list-style: none;
-  }
-  
-  #injected li, th, td {
-      padding-right: 45px;
-      padding-left: 25px;
-      padding-top: 7px;
-      text-align: left;
-  }
-  
-  #userInput{
-    margin-top: 20px;
-  }
   
   
